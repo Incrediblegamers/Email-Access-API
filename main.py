@@ -1,4 +1,4 @@
-import ssl, socket, imaplib, json
+import ssl, socket, imaplib
 from flask import *
 # https://github.com/DrPython3/MailRipV3  DrPython3
 imap_domains = ["", "imap.", "imaps.", "mail.", "email.", "mx.", "inbound.", "securemail.", "imap.mail.", "imap-mail."]
