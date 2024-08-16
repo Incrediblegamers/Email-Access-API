@@ -114,4 +114,4 @@ def check():
     except: return {"Success": 0, "Info": "check failed", "Credits": "https://github.com/DrPython3/MailRipV3 DrPython3"}
 
 if __name__ == '__main__':
-    app.run(debug=True, port=80)
+    app.run(debug=False, host='', port=4000)
